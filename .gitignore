@@ -3,4 +3,4 @@
 __pycache__/
 *.py[cod]
 *$py.class
-source/domed/dist
+source/domed/dist/
