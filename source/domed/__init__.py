@@ -7,7 +7,3 @@ The submodules `html` and `svg` define all the tags available for writing HTML a
 import sys
 if sys.platform != "emscripten":
     raise ImportError("The domed package can only be used for code running in a browser")
-
-from .domed import *
-from . import html
-from . import svg
