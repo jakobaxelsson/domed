@@ -25,4 +25,33 @@ See the documentation for installing packages from PyPI in pyodide and pyscript,
 
 ## Usage examples
 
-To be added.
+A typical usage looks as follows:
+
+```
+from domed import document
+from domed.html import *
+
+with document.query(".body").clear():
+    with ol():
+        with ul():
+            with li("Item 1.1"):
+                event_listener("click", lambda _: print("Click"))
+            li("Item 1.2")
+        with li("Item 2") as item:
+            item["id"] = "item2"
+        li("Item 3", id = "item3")
+```
+
+The first line finds the body element of the document, and clears it of all existing content.
+Then, it adds an ordered list under it, each with some list items or sublists.
+The item 1.1 shows how to add an event listener, responding to the click event.
+Item 2 shows how an attribute of an element can be set after its creation.
+Item 3 shows how to set it while creating it.
+
+## Demonstration examples
+
+There is a [playground](https://jakobaxelsson.github.io/domed/playground.html) application in which it is possible to evaluate
+snippets of `domed`` code, and see the effects directly in the browser.
+It can also be used as a boilerplate for starting new `domed` based projects.
+
+An example of a larger example being build with `domed`` is the [system-of-systems simulator (SoSSim)](https://github.com/jakobaxelsson/sossim).

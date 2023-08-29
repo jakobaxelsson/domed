@@ -4,7 +4,7 @@ build-backend = "flit_core.buildapi"
 
 [project]
 name = "domed"
-version = "0.1.3a"
+version = "0.2.0"
 authors = [{name = "Jakob Axelsson", email = "jakob.pm.axelsson@gmail.com"}]
 license = {file = "LICENSE"}
 classifiers = ["License :: OSI Approved :: MIT License"]
