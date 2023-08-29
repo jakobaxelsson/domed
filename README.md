@@ -5,7 +5,7 @@ It is intended for code running in the browser using [pyodide](https://pyodide.o
 A typical usage is for single-page applications with dynamically changing page content.
 The name is an abbreviation for DOM editing.
 
-The package provides an API that is greatly inspired by the (dominate)[https://github.com/Knio/dominate] package.
+The package provides an API that is greatly inspired by the [dominate](https://github.com/Knio/dominate) package.
 The main difference is that dominate is intended to run on the server.
 It creates a datastructure representing the DOM tree.
 This datastructure can then be converted to HTML code as a string, which can be sent to a client.
