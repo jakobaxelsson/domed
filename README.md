@@ -51,7 +51,7 @@ Item 3 shows how to set it while creating it.
 ## Demonstration examples
 
 There is a [playground](https://jakobaxelsson.github.io/domed/playground.html) application in which it is possible to evaluate
-snippets of `domed`` code, and see the effects directly in the browser.
+snippets of `domed` code, and see the effects directly in the browser.
 It can also be used as a boilerplate for starting new `domed` based projects.
 
-An example of a larger example being build with `domed`` is the [system-of-systems simulator (SoSSim)](https://github.com/jakobaxelsson/sossim).
+An example of a larger example being build with `domed` is the [system-of-systems simulator (SoSSim)](https://github.com/jakobaxelsson/sossim).
